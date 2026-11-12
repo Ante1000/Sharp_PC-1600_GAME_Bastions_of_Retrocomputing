@@ -1,9 +1,10 @@
 # BASTIONS OF RETROCOMPUTING - Sharp PC-1600
 
-Port of the strategy game [Bastions of Retrocomputing](https://github.com/Ante1000/Sharp_PC-1500_GAME_Bastions_of_Retrocomputing)
-(Sharp PC-1500) to the **Sharp PC-1600** in its own mode (MODE 0, 4-line display).
+A strategy game for **Sharp PC-1600** based on a similar game for Sharp PC-1500
+[Bastions of Retrocomputing](https://github.com/Ante1000/Sharp_PC-1500_GAME_Bastions_of_Retrocomputing)
 
-> **Status:** runs on a real PC-1600; timing values (pauses, blinking, animation) may still be tuned.
+
+> **Status:** verified on a real PC-1600.
 > Instructions: [PDF](instructions_v2.6-pc1600.pdf) / [DOCX](instructions_v2.6-pc1600.docx).
 
 ## Screen
@@ -30,16 +31,10 @@ Port of the strategy game [Bastions of Retrocomputing](https://github.com/Ante10
 
 1. Put the PC-1600 in the CE-1600P and connect the audio output of a computer or player to its EAR jack.
 2. In the default mode (**MODE 0**) type `LOAD "CAS:"` [ENTER] (or `LOAD "CAS:BASTIONS"`) and play the WAV.
-3. `RUN` (still in MODE 0).
+3. Switch to RUN mode and execute `RUN`.
 
-The recording is an ASCII BASIC file in the PC-1600 tape format (`SAVE "CAS:...",A`), so the
-PC-1600 tokenizes the text itself. Format: PC-1600 Technical Reference, section 3.11.1.
-Options of the tool (`--eol cr|lf|crlf`, `--ext`, `--invert`, `--rate`) are in the header of the script.
-
-```
-python3 tools/pc1600_bas2wav.py Basic/bastions_of_retrocomputing-v2.6-pc1600.txt wav/bastions-v2.6-pc1600.wav BASTIONS
-python3 tools/pc1600_bas2wav.py --check wav/bastions-v2.6-pc1600.wav
-```
+The recording is an ASCII BASIC file in the PC-1600 tape format, so the PC-1600 tokenizes the text
+itself. 
 
 ## License
 
