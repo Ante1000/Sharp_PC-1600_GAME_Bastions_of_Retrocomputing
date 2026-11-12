@@ -19,6 +19,7 @@ Port of the strategy game [Bastions of Retrocomputing](https://github.com/Ante10
 | `Basic/bastions_of_retrocomputing-v2.6-pc1600.txt` | the program (BASIC listing, PC-1600 BASIC, 285 lines) |
 | `Basic/pc1600_display_test.txt` | short test of the screen commands the game relies on (run it first) |
 | `wav/pc1600_display_test.wav` | recording of the test (`LOAD "CAS:DISPTEST"`, about 50 seconds) |
+| `Basic/pc1600_debug.txt`, `wav/pc1600_debug.wav` | step-by-step diagnostic of the start of the game (`LOAD "CAS:DEBUG"`) |
 | `wav/bastions-v2.6-pc1600.wav` | tape recording for `LOAD "CAS:BASTIONS"` (about 8 minutes) |
 | `tools/pc1600_bas2wav.py` | makes such a recording from a BASIC text file, and decodes it for a check |
 
