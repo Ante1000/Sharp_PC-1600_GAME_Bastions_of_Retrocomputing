@@ -297,10 +297,10 @@
 1490 DATA 145,137,154,130,163,122,173,297,0,0
 1495 DATA "Lourdes","Fatima","Altotting","Santiago","Jasna Gora"
 1500 DATA "Avila","Loreto","Valere","Hohensalzburg","Vatican"
-1505 DATA "Casio FX-602P","HP-41C calculator","5.25 floppy disks"
-1510 DATA "Commodore C64 + CRT","2 MB Seagate HDD","Apple II with FDD"
-1515 DATA "Apple LISA","Logitech P4 mouse","Cray-1 system"
-1520 DATA "Vatican Mainframe"
+1505 DATA "a mint iCasio FX-602P","a HP-41C calculator","a box of 5.25 floppy disks"
+1510 DATA "Commodore C64 + CRT monitor","vintage 2 MB Seagate HDD","an Apple II with FDD"
+1515 DATA "an Apple LISA system","a Logitech P4 mouse","a large Cray-1 system"
+1520 DATA "Vatican IBM Mainframe"
 1525 DATA 61,106,69,95,61,794,69,102,79,90,84,85,95,76,101,249
 1530 DATA 95,585
 1535 DATA 128,53,145,47,128,397,173,99
