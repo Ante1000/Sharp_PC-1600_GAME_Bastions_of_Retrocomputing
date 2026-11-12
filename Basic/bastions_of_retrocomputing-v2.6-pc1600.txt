@@ -32,7 +32,7 @@
 165 H=12:U=2:ZZ(4)=20:ZZ(5)=6:ZZ(3)=0:ZZ(1)=476:O=60:N=0
 170 N$(0)="":ZZ(15)=0:ZZ(16)=0
 175 CLS
-180 A$(0)="CONQUER THE BASTIONS":B$(0)="OF RETROCOMPUTING !":ZZ(7)=0:GOSUB 1465
+180 A$(0)="CONQUER THE BASTIONS":B$(0)="OF RETRO-COMPUTING !":ZZ(7)=0:GOSUB 1465
 185 GOSUB 1265
 190 REM --- MAIN MENU. TX = TAX MONEY: 5 X THE TOKENS OF EVERY WON FIGHT.
 195 REM KEY T PAYS IT OUT, TX = .5: TAX DONE. ONLY THEN, WITH CHANCE 1/4,
@@ -306,8 +306,8 @@
 1535 DATA 145,137,154,130,163,122,173,297,0,0
 1540 DATA "Lourdes","Fatima","Altotting","Santiago","Jasna Gora"
 1545 DATA "Avila","Loreto","Valere","Hohensalzburg","Vatican"
-1550 DATA "a mint iCasio FX-602P","a HP-41C calculator"
-1555 DATA "a box of 5.25 floppy disks","Commodore C64+CRT monitor"
+1550 DATA "a mint Casio FX-602P","a HP-41C calculator"
+1555 DATA "a box of 5.25 floppy disks","Commodore C64 & CRT monitor"
 1560 DATA "vintage 2 MB Seagate HDD","an Apple II with FDD"
 1565 DATA "an Apple LISA system","a Logitech P4 mouse"
 1570 DATA "a large Cray-1 system","Vatican IBM Mainframe"
