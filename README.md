@@ -12,6 +12,8 @@ A strategy game for **Sharp PC-1600** based on a similar game for Sharp PC-1500
 - line 1: tokens `Tnnn` (left), mode (middle: MAIN MENU, FIGHT, BUY, SELL, RESOURCES, TAX), retro stuff `Rnnn` (right);
   in a fight the middle shows `Place - nnP` (Tech Priests still active). Hidden during the title music
 - lines 2 and 3: the game (messages and questions; important messages are centred)
+- round screen, line 3: `YOU: nn` and, when it applies, `R=REINFORCE` (moves Hackers, Daemons and Trojans from home to the
+  fight; only with fewer fighters than Tech Priests and something left at home) and `S=SURRENDER`
 - line 4: `Hnn Gnn Dnn Tnn` = Hackers, Gurus, Daemons, Trojans in fixed fields (a field that grows blinks);
   in a fight (from FIGHTING! on) only the forces thrown into it: `(hnn gnn dnn tnn)`
 
