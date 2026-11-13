@@ -13,7 +13,7 @@ A strategy game for **Sharp PC-1600** based on a similar game for Sharp PC-1500
   in a fight the middle shows `Place - nnP` (Tech Priests still active). Hidden during the title music
 - lines 2 and 3: the game (messages and questions; important messages are centred)
 - line 4: `Hnn Gnn Dnn Tnn` = Hackers, Gurus, Daemons, Trojans in fixed fields (a field that grows blinks);
-  in a fight only the forces thrown into it: `(hnn gnn dnn tnn)`
+  in a fight (from FIGHTING! on) only the forces thrown into it: `(hnn gnn dnn tnn)`
 
 ## Files
 
@@ -35,6 +35,17 @@ A strategy game for **Sharp PC-1600** based on a similar game for Sharp PC-1500
 
 The recording is an ASCII BASIC file in the PC-1600 tape format, so the PC-1600 tokenizes the text
 itself. 
+
+## Loading through the serial port (UART, terminal)
+
+The listing can also be sent from a computer (this follows the PC-1600 manual, `LOAD`/`SETCOM`; not tested):
+
+1. Connect the RS-232C port of the PC-1600 to the computer and open a terminal program there.
+2. Set the port of the PC-1600 with `SETCOM` (e.g. 9600 baud, 8 bits, no parity, 1 stop bit, X-ON/OFF; see the PC-1600
+   manual) and the same settings in the terminal.
+3. In **MODE 0** type `LOAD "COM1:"` [ENTER] and send `Basic/bastions_of_retrocomputing-v2.6-pc1600.txt` from the
+   terminal as a plain text file (CR line ends, X-ON/OFF flow control, a short pause after every line if possible).
+4. When the transfer is finished, execute `RUN`.
 
 ## License
 
